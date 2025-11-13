@@ -1,0 +1,5 @@
+FROM confluentinc/cp-kafka-connect:7.5.3
+
+# Install the File connector so we can use FileStreamSink
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-file:latest
+
