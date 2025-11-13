@@ -16,6 +16,13 @@ This proof-of-concept spins up Kafka + Kafka Connect, creates 5 connectors (each
 - `curl`
 - `jq`
 
+# Quick run
+1) Run the PoC: `bash scripts/poc_until_failed.sh`
+2) Run the two-line script: `bash scripts/restart_failed.sh`
+3) Check connector states: `bash scripts/list_states.sh`
+
+# More details...
+
 ## Start the stack
 
 1) `docker compose up -d`
