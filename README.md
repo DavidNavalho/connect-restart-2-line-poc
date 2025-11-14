@@ -2,7 +2,7 @@
 
 "We should do AI" is getting out of hand. It was recently suggested that we could use an LLM to "self-heal" failed Kafka Connectors. Obviously I answered I could write a bash script that did that in two lines. It's not pretty, but it's two lines!
 
-Of course, I then did use an LLM for something it's good at: building a quick PoC to prove my 2-line script works! Everything here except this first paragraph and the script, where LLM-generated.
+Of course, I then did use an LLM for something it's good at: building a quick PoC to prove my 2-line script works! Everything here except this first paragraph and the 2-liner script (`scripts/restart_failed.sh`), where LLM-generated.
 
 # Kafka Connect Failed Task Restart PoC
 
